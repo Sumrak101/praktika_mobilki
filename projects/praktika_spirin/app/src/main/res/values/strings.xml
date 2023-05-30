@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DroidQuest</string>
+    <string name="true_button">Да</string>
+    <string name="false_button">Нет</string>
+    <string name="correct_toast">Верно!</string>
+    <string name="incorrect_toast">Неверно!</string>
+    <string name="question_android">Android основана на ядре Linux</string>
+    <string name="question_linear">Разметка LinearLayout позицонирует дочерние элементы в строки и столбцы</string>
+    <string name="question_service">Компонент Android-приложения Sevice предоставляют доступ к данным</string>
+    <string name="question_res">Ресурсы приложения содержатся в отдельном файле XML</string>
+    <string name="question_manifest">AndroidManifest.xml предоставляет системе основную информацию о программе</string>
+    <string name="question_developer">Разработчик приложений - это программист, занимающийся созданием, обновлением и устранением неполадок в программах для мобильных устройств</string>
+    <string name="question_java">Разработки под Android пишутся на Java</string>
+    <string name="question_created">ОС Android создали в Пало-Альто, штат Калифорния</string>
+    <string name="question_creator">Энди Рубин изобрел OC Android</string>
+    <string name="question_versions">Всего существует 9 версий OC Android</string>
+
+    <string name="warning_text">Вы уверены, что хотите это сделать?</string>
+    <string name="show_answer_button">Показать ответ</string>
+    <string name="deceit_button">Обмануть!</string>
+    <string name="judgment_toast">Обманывать нельзя</string>
+    <string name="title_activity_deceit">Deceit</string>
+</resources>
