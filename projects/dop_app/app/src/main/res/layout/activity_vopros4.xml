@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/vopros16"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="Чаще всего используют AMD."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <RadioButton
+        android:id="@+id/vopros13"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:width="320sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="Чаще всего используют Intel."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <RadioButton
+        android:id="@+id/vopros14"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="iOS использует Intel, остальные используют AMD."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="337dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="44dp"
+        android:text="Какой тип процессора чаще всего используют мобильные девайсы?"
+        android:textAlignment="center"
+        android:textColor="#0F72DC"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/vopros15"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="Чаще всего используют ARM."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="443dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/telefon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

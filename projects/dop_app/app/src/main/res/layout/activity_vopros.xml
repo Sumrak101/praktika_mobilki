@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vopros">
+
+    <RadioButton
+        android:buttonTint="#0F72DC"
+        android:id="@+id/vopros1"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Нет, операционные системы бывают только для ПК."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <RadioButton
+        android:buttonTint="#0F72DC"
+        android:id="@+id/vopros2"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:width="320sp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Нет, Android это программа, которая ставится на операционную систему девайса. ОС на разных девайсах разные."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <RadioButton
+        android:id="@+id/vopros3"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="Да, это такая же ОС, как и другие, просто для мобильных девайсов."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="353dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="60dp"
+        android:text="Является ли Android операционной системой?"
+        android:textAlignment="center"
+        android:textColor="#0F72DC"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:buttonTint="#0F72DC"
+        android:id="@+id/vopros4"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Это домашняя страничка в настройках вашего браузера."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="212dp"
+        android:layout_marginTop="136dp"
+        android:src="@drawable/sysadm_c_vectorjuice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

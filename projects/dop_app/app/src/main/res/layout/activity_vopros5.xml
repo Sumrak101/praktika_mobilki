@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/vopros20"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="Это ядро операционной системы."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <RadioButton
+        android:id="@+id/vopros17"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:width="320sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text=" Это программный интерфейс, с его помощью программы общаются друг с другом."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <RadioButton
+        android:id="@+id/vopros18"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text="Это система вывода текста в командную оболочку."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="72dp"
+        android:text="Что такое API?"
+        android:textAlignment="center"
+        android:textColor="#0F72DC"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/vopros19"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:width="300sp"
+        android:backgroundTint="#FFFFFF"
+        android:buttonTint="#0F72DC"
+        android:text=" Это интерфейс подключенного к компьютеру принтера."
+        android:textColor="#0F72DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="450dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/api" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

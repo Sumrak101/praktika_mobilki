@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C81E6">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="254dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="124dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="OnCloseButtonClick"
+        android:text="ВЫХОД"
+        android:textColor="#41A2C0"
+        app:cornerRadius="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="razrab"
+        android:text=" О программе"
+        app:cornerRadius="22dp"
+        android:textColor="#41A2C0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="233dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:text="Тест пройден"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="443dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="96dp"
+        app:circularflow_defaultRadius="20sp"
+        app:circularflow_radiusInDP="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/itog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
